@@ -225,7 +225,7 @@ namespace DXFPatterns
                                 HatchBoundary.Add(ent);
 
                                 dxfReaderNETControl1.DrawEntity(dxfReaderNETControl1.AddHatch(m_PatternName, HatchBoundary, null, double.Parse(m_HatchRotation, System.Globalization.CultureInfo.CurrentCulture), double.Parse(m_HatchScale, System.Globalization.CultureInfo.CurrentCulture), dxfReaderNETControl1.DXF.CurrentColor.Index));
-
+                                toolStripStatusLabel1.Text = "";
                             }
                         }
                         break;
